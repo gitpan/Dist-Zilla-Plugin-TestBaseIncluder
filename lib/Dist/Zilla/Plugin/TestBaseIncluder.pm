@@ -1,5 +1,6 @@
 package Dist::Zilla::Plugin::TestBaseIncluder;
-$Dist::Zilla::Plugin::TestBaseIncluder::VERSION = '0.03';
+our $VERSION = '0.04';
+
 use Moose;
 
 extends 'Dist::Zilla::Plugin::ModuleIncluder';
